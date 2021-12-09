@@ -10,30 +10,31 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d(TAG, "onCreate")
+        Log.d(TAG, "Как романтику свойственно всякому,")
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d(TAG, "onStart")
+        Log.d(TAG, "Я образ идеала женского в душе создал.")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(TAG, "onResume")
+        Log.d(TAG, "И пусть меняет время людей и судьбы,")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(TAG, "onPause")
+        Log.d(TAG, "Но образ мечтаний моих со мною навеки!")
     }
     override fun onStop() {
         super.onStop()
-        Log.d(TAG, "onStop")
+        Log.d(TAG, "И меня по утрам теперь будит,\n" +
+                "угрожая разводом,")
     }
     override fun onRestart() {
         super.onRestart()
-        Log.d(TAG, "onRestart")
+        Log.d(TAG, "Если еще раз домой приду с пьяной рожей.")
     }
     override fun onDestroy() {
         super.onDestroy()
